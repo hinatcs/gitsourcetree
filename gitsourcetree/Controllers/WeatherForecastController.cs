@@ -12,6 +12,9 @@ namespace gitsourcetree.Controllers
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<WeatherForecastController> _logger1;
+        private readonly ILogger<WeatherForecastController> _logger2;
+        private readonly ILogger<WeatherForecastController> _logger3;
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
